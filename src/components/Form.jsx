@@ -83,22 +83,7 @@ function Form() {
 
             <label>Monthly Expenses : </label>
             <br></br>
-            {/* <div style={{position:'relative', justifyContent:'center'}}>
-            <span className="unit" style={{position :'absolute',left: '7px',top: '13px',marginLeft:'25%', zIndex:'9'}}>RS</span>
-            <input
-              className="inputbox"
-              type="number"
-              name="expenses"
-              // value={data.expenses}
-              onChange={inputDetails}
-              // placeholder="Eg : 5000"
-              required
-              style={{display: 'block',
-              marginLeft:'25%',
-              paddingLeft:'2rem'
-                }}
-            />
-            </div> */}
+            
             <input
               className="inputbox"
               type="number"
@@ -200,7 +185,7 @@ function Form() {
         </div>
       </div>
 
-      {/* <Test value={question} /> */}
+
     </>
   );
 }
