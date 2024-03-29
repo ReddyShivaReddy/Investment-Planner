@@ -12,31 +12,15 @@ import Nav from "./components/Nav";
 import { style } from "d3";
 
 function App() {
-  // const [count, setCount] = useState(0);
+
 
   return (
-    // <div className="main">
-    //   <div className="home">
-    //     <Home />
-    //   </div>
-
-    //   <div className="form">
-    //     <Form />
-    //   </div>
-
-    //   <div className="about">
-    //     <About />
-    //   </div>
-    //   <Test />
-    // </div>
 
     <>
       <h1 style={{ width: "max-content", fontSize:'70px'}}>
         Fin<span>plan</span>
       </h1>
-      
-      
-      {/* <Nav /> */}
+    
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Nav />}>
